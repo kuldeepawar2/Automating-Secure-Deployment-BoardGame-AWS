@@ -1,0 +1,1 @@
+{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"iam","Source":"./iam.tf","Dir":"iam.tf"},{"Key":"instances","Source":"./ec2.tf","Dir":"ec2.tf"},{"Key":"security_groups","Source":"./sg.tf","Dir":"sg.tf"},{"Key":"vpc","Source":"./vpc.tf","Dir":"vpc.tf"}]}

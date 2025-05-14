@@ -3,17 +3,17 @@ provider "aws" {
 }
 
 module "vpc" {
-  source = "./vpc.tf"
+  source = "./modules/vpc.tf"
 }
 
 module "security_groups" {
-  source = "./sg.tf"
+  source = "./modules/sg.tf"
 }
 
 module "instances" {
-  source = "./ec2.tf"
+  source = "./modules/ec2.tf"
 }
 
 module "iam" {
-  source = "./iam.tf"
+  source = "./modules/iam.tf"
 }
